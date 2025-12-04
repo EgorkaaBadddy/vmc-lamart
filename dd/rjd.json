@@ -1,0 +1,443 @@
+[
+  {
+    "id": 1,
+    "contractor": "ООО РЖД",
+    "departure_station": "Владивосток",
+    "destination_station": "Иркутск",
+    "vat": 20,
+    "security": {
+      "20ft": 110,
+      "40ft": 160
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5800,
+        ">24t": 6900
+      },
+      "40ft": {
+        "<28t": 9400,
+        "<24t": 8100
+      }
+    }
+  },
+  {
+    "id": 2,
+    "contractor": "ООО РЖД",
+    "departure_station": "Владивосток",
+    "destination_station": "Новосибирск",
+    "vat": 22,
+    "security": {
+      "20ft": 105,
+      "40ft": 150
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5600,
+        ">24t": 6700
+      },
+      "40ft": {
+        "<28t": 9200,
+        "<24t": 7800
+      }
+    }
+  },
+  {
+    "id": 3,
+    "contractor": "ООО РЖД",
+    "departure_station": "Восточный (Приморский край)",
+    "destination_station": "Екатеринбург",
+    "vat": 20,
+    "security": {
+      "20ft": 120,
+      "40ft": 170
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 6000,
+        ">24t": 7200
+      },
+      "40ft": {
+        "<28t": 9600,
+        "<24t": 8200
+      }
+    }
+  },
+  {
+    "id": 4,
+    "contractor": "ООО РЖД",
+    "departure_station": "Находка",
+    "destination_station": "Самара",
+    "vat": 0,
+    "security": {
+      "20ft": 100,
+      "40ft": 150
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5500,
+        ">24t": 6600
+      },
+      "40ft": {
+        "<28t": 9100,
+        "<24t": 7700
+      }
+    }
+  },
+  {
+    "id": 5,
+    "contractor": "ООО РЖД",
+    "departure_station": "Санкт-Петербург",
+    "destination_station": "Омск",
+    "vat": 22,
+    "security": {
+      "20ft": 95,
+      "40ft": 140
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5300,
+        ">24t": 6400
+      },
+      "40ft": {
+        "<28t": 8800,
+        "<24t": 7500
+      }
+    }
+  },
+  {
+    "id": 6,
+    "contractor": "ООО РЖД",
+    "departure_station": "Санкт-Петербург",
+    "destination_station": "Краснодар",
+    "vat": 20,
+    "security": {
+      "20ft": 115,
+      "40ft": 165
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5700,
+        ">24t": 6800
+      },
+      "40ft": {
+        "<28t": 9300,
+        "<24t": 7900
+      }
+    }
+  },
+  {
+    "id": 7,
+    "contractor": "ООО РЖД",
+    "departure_station": "Новороссийск",
+    "destination_station": "Ростов",
+    "vat": 0,
+    "security": {
+      "20ft": 105,
+      "40ft": 155
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5100,
+        ">24t": 6200
+      },
+      "40ft": {
+        "<28t": 8500,
+        "<24t": 7200
+      }
+    }
+  },
+  {
+    "id": 8,
+    "contractor": "ООО РЖД",
+    "departure_station": "Новороссийск",
+    "destination_station": "Краснодар",
+    "vat": 22,
+    "security": {
+      "20ft": 110,
+      "40ft": 160
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5200,
+        ">24t": 6300
+      },
+      "40ft": {
+        "<28t": 8600,
+        "<24t": 7300
+      }
+    }
+  },
+  {
+    "id": 9,
+    "contractor": "ООО РЖД",
+    "departure_station": "Калининград",
+    "destination_station": "Санкт-Петербург",
+    "vat": 20,
+    "security": {
+      "20ft": 100,
+      "40ft": 150
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5000,
+        ">24t": 6100
+      },
+      "40ft": {
+        "<28t": 8300,
+        "<24t": 7000
+      }
+    }
+  },
+  {
+    "id": 10,
+    "contractor": "ООО РЖД",
+    "departure_station": "Калининград",
+    "destination_station": "Казань",
+    "vat": 22,
+    "security": {
+      "20ft": 115,
+      "40ft": 165
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5400,
+        ">24t": 6500
+      },
+      "40ft": {
+        "<28t": 8900,
+        "<24t": 7600
+      }
+    }
+  },
+  {
+    "id": 11,
+    "contractor": "ООО РЖД",
+    "departure_station": "Архангельск",
+    "destination_station": "Новосибирск",
+    "vat": 0,
+    "security": {
+      "20ft": 95,
+      "40ft": 140
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5200,
+        ">24t": 6300
+      },
+      "40ft": {
+        "<28t": 8700,
+        "<24t": 7400
+      }
+    }
+  },
+  {
+    "id": 12,
+    "contractor": "ООО РЖД",
+    "departure_station": "Архангельск",
+    "destination_station": "Челябинск",
+    "vat": 20,
+    "security": {
+      "20ft": 110,
+      "40ft": 160
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5500,
+        ">24t": 6600
+      },
+      "40ft": {
+        "<28t": 9200,
+        "<24t": 7800
+      }
+    }
+  },
+  {
+    "id": 13,
+    "contractor": "ООО РЖД",
+    "departure_station": "Мурманск",
+    "destination_station": "Екатеринбург",
+    "vat": 22,
+    "security": {
+      "20ft": 120,
+      "40ft": 170
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5800,
+        ">24t": 7000
+      },
+      "40ft": {
+        "<28t": 9600,
+        "<24t": 8200
+      }
+    }
+  },
+  {
+    "id": 14,
+    "contractor": "ООО РЖД",
+    "departure_station": "Мурманск",
+    "destination_station": "Тольятти",
+    "vat": 20,
+    "security": {
+      "20ft": 125,
+      "40ft": 175
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 6000,
+        ">24t": 7100
+      },
+      "40ft": {
+        "<28t": 9800,
+        "<24t": 8400
+      }
+    }
+  },
+  {
+    "id": 15,
+    "contractor": "ООО РЖД",
+    "departure_station": "Находка",
+    "destination_station": "Омск",
+    "vat": 0,
+    "security": {
+      "20ft": 105,
+      "40ft": 150
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5600,
+        ">24t": 6700
+      },
+      "40ft": {
+        "<28t": 9100,
+        "<24t": 7700
+      }
+    }
+  },
+  {
+    "id": 16,
+    "contractor": "ООО РЖД",
+    "departure_station": "Архангельск",
+    "destination_station": "Москва",
+    "vat": 0,
+    "security": {
+      "20ft": 95,
+      "40ft": 140
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5300,
+        ">24t": 6400
+      },
+      "40ft": {
+        "<28t": 8700,
+        "<24t": 7400
+      }
+    }
+  },
+  {
+    "id": 17,
+    "contractor": "ООО РЖД",
+    "departure_station": "Екатеринбург",
+    "destination_station": "Иркутск",
+    "vat": 20,
+    "security": {
+      "20ft": 120,
+      "40ft": 170
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 6000,
+        ">24t": 7200
+      },
+      "40ft": {
+        "<28t": 9600,
+        "<24t": 8200
+      }
+    }
+  },
+  {
+    "id": 8,
+    "contractor": "ООО РЖД",
+    "departure_station": "Новороссийск",
+    "destination_station": "Краснодар",
+    "vat": 22,
+    "security": {
+      "20ft": 110,
+      "40ft": 160
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5200,
+        ">24t": 6300
+      },
+      "40ft": {
+        "<28t": 8600,
+        "<24t": 7300
+      }
+    }
+  },
+  {
+    "id": 9,
+    "contractor": "ООО РЖД",
+    "departure_station": "Новороссийск",
+    "destination_station": "Сочи",
+    "vat": 20,
+    "security": {
+      "20ft": 100,
+      "40ft": 150
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5000,
+        ">24t": 6100
+      },
+      "40ft": {
+        "<28t": 8300,
+        "<24t": 7000
+      }
+    }
+  },
+  {
+    "id": 10,
+    "contractor": "ООО РЖД",
+    "departure_station": "Новороссийск",
+    "destination_station": "Краснодар",
+    "vat": 22,
+    "security": {
+      "20ft": 110,
+      "40ft": 160
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5200,
+        ">24t": 6300
+      },
+      "40ft": {
+        "<28t": 8600,
+        "<24t": 7300
+      }
+    }
+  },
+  {
+    "id": 11,
+    "contractor": "ООО РЖД",
+    "departure_station": "Сочи",
+    "destination_station": "Краснодар",
+    "vat": 20,
+    "security": {
+      "20ft": 100,
+      "40ft": 150
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5000,
+        ">24t": 6100
+      },
+      "40ft": {
+        "<28t": 8300,
+        "<24t": 7000
+      }
+    }
+  }
+]

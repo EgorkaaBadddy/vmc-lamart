@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "contractor": "ООО Морские Грузы",
+    "departure_port": "BUSAN",
+    "departure_county": "Корея",
+    "destination_port": "Владивосток",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 180,
+      "40ft": 260
+    },
+    "coc": {
+      "20ft": 230,
+      "40ft": 320
+    },
+    "ktk": {
+      "20ft": 900,
+      "40ft": 1300,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1800
+    }
+  },
+  {
+    "id": 2,
+    "contractor": "TransSea Logistics",
+    "departure_port": "SHANGHAI",
+    "departure_county": "Китай",
+    "destination_port": "Санкт-Петербург",
+    "destination_county": "Россия",
+    "conversion": 2,
+    "soc": {
+      "20ft": 220,
+      "40ft": 310
+    },
+    "coc": {
+      "20ft": 300,
+      "40ft": 430
+    },
+    "ktk": {
+      "20ft": 950,
+      "40ft": 1450,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 2000
+    }
+  },
+  {
+    "id": 3,
+    "contractor": "OceanLine Co",
+    "departure_port": "NINGBO",
+    "departure_county": "Китай",
+    "destination_port": "Новороссийск",
+    "destination_county": "Россия",
+    "conversion": 3,
+    "soc": {
+      "20ft": 200,
+      "40ft": 280
+    },
+    "coc": {
+      "20ft": 1200,
+      "40ft": 1600
+    },
+    "ktk": {
+      "20ft": 700,
+      "40ft": 1100,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1700
+    }
+  },
+  {
+    "id": 4,
+    "contractor": "Pacific Marine",
+    "departure_port": "TOKYO",
+    "departure_county": "Япония",
+    "destination_port": "Корсаков (Сахалин)",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 190,
+      "40ft": 300
+    },
+    "coc": {
+      "20ft": 1000,
+      "40ft": 1500
+    },
+    "ktk": {
+      "20ft": 600,
+      "40ft": 900,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1600
+    }
+  },
+  {
+    "id": 5,
+    "contractor": "FarEast Shipping",
+    "departure_port": "DALIAN",
+    "departure_county": "Китай",
+    "destination_port": "Находка",
+    "destination_county": "Россия",
+    "conversion": 2,
+    "soc": {
+      "20ft": 210,
+      "40ft": 290
+    },
+    "coc": {
+      "20ft": 260,
+      "40ft": 360
+    },
+    "ktk": {
+      "20ft": 800,
+      "40ft": 1200,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1800
+    }
+  },
+  {
+    "id": 6,
+    "contractor": "AsiaSea Transport",
+    "departure_port": "HAIPHONG",
+    "departure_county": "Вьетнам",
+    "destination_port": "Архангельск",
+    "destination_county": "Россия",
+    "conversion": 3,
+    "soc": {
+      "20ft": 230,
+      "40ft": 330
+    },
+    "coc": {
+      "20ft": 300,
+      "40ft": 420
+    },
+    "ktk": {
+      "20ft": 1000,
+      "40ft": 1500,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 2000
+    }
+  },
+  {
+    "id": 7,
+    "contractor": "MarineBridge",
+    "departure_port": "YANTIAN",
+    "departure_county": "Китай",
+    "destination_port": "Мурманск",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 250,
+      "40ft": 360
+    },
+    "coc": {
+      "20ft": 1400,
+      "40ft": 1800
+    },
+    "ktk": {
+      "20ft": 700,
+      "40ft": 1100,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1900
+    }
+  },
+  {
+    "id": 8,
+    "contractor": "OceanTrade",
+    "departure_port": "HONGKONG",
+    "departure_county": "Китай",
+    "destination_port": "Восточный (Приморский край)",
+    "destination_county": "Россия",
+    "conversion": 2,
+    "soc": {
+      "20ft": 210,
+      "40ft": 300
+    },
+    "coc": {
+      "20ft": 260,
+      "40ft": 380
+    },
+    "ktk": {
+      "20ft": 900,
+      "40ft": 1300,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1700
+    }
+  },
+  {
+    "id": 9,
+    "contractor": "IndoMarine",
+    "departure_port": "JAKARTA",
+    "departure_county": "Индонезия",
+    "destination_port": "Калининград",
+    "destination_county": "Россия",
+    "conversion": 3,
+    "soc": {
+      "20ft": 240,
+      "40ft": 350
+    },
+    "coc": {
+      "20ft": 320,
+      "40ft": 460
+    },
+    "ktk": {
+      "20ft": 1000,
+      "40ft": 1400,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 2100
+    }
+  },
+  {
+    "id": 10,
+    "contractor": "BanglaSea Cargo",
+    "departure_port": "CHATTOGRAM",
+    "departure_county": "Бангладеш",
+    "destination_port": "Новороссийск",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 260,
+      "40ft": 390
+    },
+    "coc": {
+      "20ft": 1600,
+      "40ft": 2100
+    },
+    "ktk": {
+      "20ft": 700,
+      "40ft": 1100,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1900
+    }
+  },
+  {
+    "id": 11,
+    "contractor": "IndiaLine",
+    "departure_port": "NHAVA SHEVA",
+    "departure_county": "Индия",
+    "destination_port": "Архангельск",
+    "destination_county": "Россия",
+    "conversion": 2,
+    "soc": {
+      "20ft": 220,
+      "40ft": 330
+    },
+    "coc": {
+      "20ft": 280,
+      "40ft": 430
+    },
+    "ktk": {
+      "20ft": 900,
+      "40ft": 1300,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1800
+    }
+  },
+  {
+    "id": 12,
+    "contractor": "Japan Marine Cargo",
+    "departure_port": "OSAKA",
+    "departure_county": "Япония",
+    "destination_port": "Корсаков (Сахалин)",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 180,
+      "40ft": 260
+    },
+    "coc": {
+      "20ft": 1000,
+      "40ft": 1500
+    },
+    "ktk": {
+      "20ft": 500,
+      "40ft": 900,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1600
+    }
+  },
+  {
+    "id": 13,
+    "contractor": "Pakistan Marine Export",
+    "departure_port": "Карачи",
+    "departure_county": "Пакистан",
+    "destination_port": "Владивосток",
+    "destination_county": "Россия",
+    "conversion": 2,
+    "soc": {
+      "20ft": 260,
+      "40ft": 380
+    },
+    "coc": {
+      "20ft": 330,
+      "40ft": 500
+    },
+    "ktk": {
+      "20ft": 850,
+      "40ft": 1250,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1700
+    }
+  },
+  {
+    "id": 14,
+    "contractor": "SriLanka Ocean",
+    "departure_port": "Коломбо",
+    "departure_county": "Шри-Ланка",
+    "destination_port": "Санкт-Петербург",
+    "destination_county": "Россия",
+    "conversion": 3,
+    "soc": {
+      "20ft": 250,
+      "40ft": 360
+    },
+    "coc": {
+      "20ft": 1500,
+      "40ft": 2000
+    },
+    "ktk": {
+      "20ft": 700,
+      "40ft": 1200,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 2000
+    }
+  },
+  {
+    "id": 15,
+    "contractor": "Singapore Freight Co",
+    "departure_port": "Singapore",
+    "departure_county": "Сингапур",
+    "destination_port": "Мурманск",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 240,
+      "40ft": 340
+    },
+    "coc": {
+      "20ft": 300,
+      "40ft": 450
+    },
+    "ktk": {
+      "20ft": 1000,
+      "40ft": 1400,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1900
+    }
+  },
+    {
+    "id": 15,
+    "contractor": "Singapore Freight Co",
+    "departure_port": "Singapore",
+    "departure_county": "Сингапур",
+    "destination_port": "Новороссийск",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 240,
+      "40ft": 340
+    },
+    "coc": {
+      "20ft": 300,
+      "40ft": 450
+    },
+    "ktk": {
+      "20ft": 1000,
+      "40ft": 1400,
+      "rate_validity": "2025-12-29",
+      "ktk_over_norm_cost": 1900
+    }
+  }
+]
