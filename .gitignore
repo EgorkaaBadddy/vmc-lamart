@@ -151,6 +151,8 @@ activemq-data/
 .env
 .envrc
 .venv
+node_modules/
+npm-debug.log*
 env/
 venv/
 ENV/

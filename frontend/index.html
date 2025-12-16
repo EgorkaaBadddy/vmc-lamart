@@ -1,80 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Сервис расчета импорта</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap">
-  <link rel="stylesheet" href="/static/style.css" />
-</head>
-<body>
-  <div class="layout">
-    <aside class="sidebar">
-      <div class="logo">LM</div>
-      <nav>
-        <div class="icon active">≡</div>
-        <div class="icon">□</div>
-        <div class="icon">✎</div>
-        <div class="icon">▦</div>
-      </nav>
-    </aside>
-
-    <main class="page">
-      <header class="hero">
-        <h1>Калькулятор менеджера</h1>
-      </header>
-
-      <div class="columns">
-        <section class="panel form-card">
-          <h2>Контейнерная перевозка</h2>
-          <form id="search-form">
-            <div class="field">
-              <label for="departure">Пункт отправления</label>
-              <select id="departure" required></select>
-            </div>
-
-            <div class="field">
-              <label for="destination">Пункт назначения</label>
-              <select id="destination" required></select>
-            </div>
-
-            <div class="field">
-              <label for="containerType">Тип контейнера</label>
-              <select id="containerType" required></select>
-            </div>
-
-            <div class="field">
-              <label>Container owner</label>
-              <div class="owner-options">
-                <label class="radio">
-                  <input type="radio" name="owner" value="COC" checked />
-                  <span>COC (все включено)</span>
-                </label>
-                <label class="radio">
-                  <input type="radio" name="owner" value="SOC" />
-                  <span>SOC (контейнер клиента)</span>
-                </label>
-              </div>
-            </div>
-
-            <button type="submit" class="btn primary">Найти маршруты</button>
-            <p id="status" class="status"></p>
-          </form>
-        </section>
-
-        <section class="panel results-card">
-          <div class="results-head">
-            <h2>Результаты</h2>
-            <div class="sort-buttons">
-              <button id="sortPrice" class="btn ghost">Сортировать по цене</button>
-            </div>
-          </div>
-          <div id="results" class="results"></div>
-        </section>
-      </div>
-    </main>
-  </div>
-
-  <script src="/static/app.js" type="module"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор маршрутов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
