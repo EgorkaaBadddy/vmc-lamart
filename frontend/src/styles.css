@@ -129,25 +129,6 @@ h4 {
   color: var(--muted);
 }
 
-.select-shell {
-  position: relative;
-  display: block;
-  border-radius: 12px;
-  background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 100%);
-  box-shadow: 0 8px 18px rgba(17, 60, 160, 0.08);
-  border: 1px solid var(--border);
-}
-
-.select-shell::after {
-  content: "▾";
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--muted);
-  pointer-events: none;
-  font-size: 13px;
-}
 
 select {
   width: 100%;
@@ -423,6 +404,7 @@ input[type="checkbox"] {
 .service-name {
   font-size: 14px;
   font-weight: 600;
+  margin-left: 10px;
 }
 
 .service-price {
