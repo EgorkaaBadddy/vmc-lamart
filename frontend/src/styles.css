@@ -46,13 +46,14 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 10px;
-  background: #ffffff;
-  color: var(--sidebar);
+  background: var(--sidebar);
   font-weight: 800;
   display: grid;
-  place-items: center;
-  letter-spacing: 1px;
-  font-size: 18px;
+  cursor: pointer;
+  background-image: url('./img/logo.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Навигационные кнопки убраны, но оставляем запас под будущее */

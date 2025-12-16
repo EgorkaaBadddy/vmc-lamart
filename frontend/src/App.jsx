@@ -359,7 +359,7 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="logo">LM</div>
+        <div className="logo"></div>
       </aside>
 
       <main className="page">
