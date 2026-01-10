@@ -20,10 +20,10 @@ function App() {
 
   // Инициализация формы после загрузки справочников
   const initialForm = {
-    departure: departures?.name || "",
-    destination: destinations?.name || "",
-    containerType: containerTypes?.value || "",
-    owner: owners?.value || "COC",
+    departure: "",
+    destination: "",
+    containerType: "",
+    owner: "",
   };
 
   const {
@@ -41,10 +41,34 @@ function App() {
 
   // Обновляем форму при загрузке справочников
   useEffect(() => {
-    if (!loadingOptions && form.departure === "") {
-      handleFormChange("departure", departures?.name || "");
+    if (loadingOptions) {
+      return;
     }
-  }, [loadingOptions, departures]);
+
+    if (!form.departure && departures.length > 0) {
+      handleFormChange("departure", departures[0].name);
+    }
+    if (!form.destination && destinations.length > 0) {
+      handleFormChange("destination", destinations[0].name);
+    }
+    if (!form.containerType && containerTypes.length > 0) {
+      handleFormChange("containerType", containerTypes[0].value);
+    }
+    if (!form.owner && owners.length > 0) {
+      handleFormChange("owner", owners[0].value);
+    }
+  }, [
+    loadingOptions,
+    departures,
+    destinations,
+    containerTypes,
+    owners,
+    form.departure,
+    form.destination,
+    form.containerType,
+    form.owner,
+    handleFormChange,
+  ]);
 
   return (
     <div className="app-shell">
