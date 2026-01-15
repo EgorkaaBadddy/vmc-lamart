@@ -39,7 +39,7 @@ function App() {
     toggleService,
   } = useSearch(initialForm);
 
-  // Обновляем форму при загрузке справочников
+  // Обновление формы при загрузке справочников
   useEffect(() => {
     if (!loadingOptions && form.departure === "") {
       handleFormChange("departure", departures?.name || "");
