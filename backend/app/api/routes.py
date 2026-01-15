@@ -1,7 +1,7 @@
 import json
 from typing import Dict, List
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 
 from ..core.config import get_settings
 from ..routing import RouteEngine
@@ -46,8 +46,6 @@ def get_meta() -> Dict[str, List[Dict[str, str]]]:
 @router.post("/search", response_model=SearchResponse)
 def search_routes(request: SearchRequest) -> SearchResponse:
     routes = engine.find_routes(request)
-    if not routes:
-        raise HTTPException(status_code=404, detail="Маршруты не найдены")
     return SearchResponse(routes=routes, rate_date=str(engine.current_date()))
 
 
