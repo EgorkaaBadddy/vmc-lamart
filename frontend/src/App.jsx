@@ -33,13 +33,14 @@ function App() {
     status,
     searching,
     serviceSelections,
+    isSorted,
     handleFormChange,
     submitSearch,
     sortByPrice,
     toggleService,
   } = useSearch(initialForm);
 
-  // Обновляем форму при загрузке справочников
+  // Обновление формы при загрузке справочников
   useEffect(() => {
     if (loadingOptions) {
       return;
@@ -99,6 +100,7 @@ function App() {
             onSort={sortByPrice}
             rateDate={rateDate}
             status={status}
+            isSorted={isSorted}
           />
         </div>
       </main>

@@ -439,5 +439,47 @@
         "<24t": 7000
       }
     }
+  }, 
+  {
+    "id": 12,
+    "contractor": "ООО РЖД",
+    "departure_station": "Владивосток",
+    "destination_station": "Москва",
+    "vat": 20,
+    "security": {
+      "20ft": 110,
+      "40ft": 160
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 10200,
+        ">24t": 7900
+      },
+      "40ft": {
+        "<28t": 9400,
+        "<24t": 8100
+      }
+    }
+  },
+   {
+    "id": 13,
+    "contractor": "ООО РЖД",
+    "departure_station": "Новосибирск",
+    "destination_station": "Москва",
+    "vat": 20,
+    "security": {
+      "20ft": 120,
+      "40ft": 170
+    },
+    "transport_cost": {
+      "20ft": {
+        "<24t": 5800,
+        ">24t": 6900
+      },
+      "40ft": {
+        "<28t": 9400,
+        "<24t": 8100
+      }
+    }
   }
 ]
