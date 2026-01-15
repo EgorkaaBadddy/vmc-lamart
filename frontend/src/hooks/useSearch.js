@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback  } from "react";
 import { fetchJson } from "../api/client";
 import { API_BASE } from "../utils/constants";
 
@@ -65,9 +65,11 @@ export const useSearch = (initialForm) => {
     }
   };
 
-  const sortByPrice = () => {
-    setRoutes((prev) => [...prev].sort((a, b) => a.total_cost - b.total_cost));
-  };
+  const [isSorted, setIsSorted] = useState(false);
+
+  const sortByPrice = useCallback(() => {
+    setIsSorted(prev => !prev);  // Используйте prev вместо isSorted (избегает deps loop)
+  }, []);
 
   const toggleService = (key, index) => {
     setServiceSelections((prev) => {
@@ -91,6 +93,7 @@ export const useSearch = (initialForm) => {
     handleFormChange,
     submitSearch,
     sortByPrice,
+    isSorted,
     toggleService,
   };
 };

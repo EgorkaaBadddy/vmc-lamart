@@ -11,17 +11,17 @@ export const Results = ({
   onSort,
   rateDate,
   status,
+  isSorted
 }) => {
-  const withTotals = useMemo(
-    () =>
-      routes.map((route) => {
-        const key = routeKey(route);
-        const selected = serviceSelections[key] || [];
-        const extra = calculateServiceExtra(services, selected);
-        return { route, total: route.total_cost + extra, selected };
-      }),
-    [routes, serviceSelections, services]
-  );
+  const withTotals = useMemo(() => {
+  const totals = routes.map(route => {
+    const key = routeKey(route);
+    const selected = serviceSelections[key] || [];
+    const extra = calculateServiceExtra(services, selected);
+    return { route, total: route.total_cost + extra, selected };
+  });
+  return isSorted ? totals.sort((a, b) => a.total - b.total) : totals;
+  }, [routes, serviceSelections, services, isSorted]);
 
   return (
     <section className="panel results-card">
@@ -36,7 +36,7 @@ export const Results = ({
             onClick={onSort}
             disabled={!routes.length}
           >
-            Сортировать по цене
+            {isSorted ? 'Отменить сортировку' : 'Сортировать по цене'}
           </button>
         </div>
       </div>

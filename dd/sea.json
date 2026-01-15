@@ -225,7 +225,7 @@
     "ktk": {
       "20ft": 700,
       "40ft": 1100,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 1900
     }
   },
@@ -248,7 +248,7 @@
     "ktk": {
       "20ft": 900,
       "40ft": 1300,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 1800
     }
   },
@@ -271,7 +271,7 @@
     "ktk": {
       "20ft": 500,
       "40ft": 900,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 1600
     }
   },
@@ -294,7 +294,7 @@
     "ktk": {
       "20ft": 850,
       "40ft": 1250,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 1700
     }
   },
@@ -317,7 +317,7 @@
     "ktk": {
       "20ft": 700,
       "40ft": 1200,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 2000
     }
   },
@@ -340,7 +340,7 @@
     "ktk": {
       "20ft": 1000,
       "40ft": 1400,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 1900
     }
   },
@@ -363,7 +363,30 @@
     "ktk": {
       "20ft": 1000,
       "40ft": 1400,
-      "rate_validity": "2025-12-29",
+      "rate_validity": "2026-12-29",
+      "ktk_over_norm_cost": 1900
+    }
+  },
+  {
+    "id": 16,
+    "contractor": "Singapore Freight Co",
+    "departure_port": "Singapore",
+    "departure_county": "Сингапур",
+    "destination_port": "Владивосток",
+    "destination_county": "Россия",
+    "conversion": 1,
+    "soc": {
+      "20ft": 270,
+      "40ft": 330
+    },
+    "coc": {
+      "20ft": 300,
+      "40ft": 450
+    },
+    "ktk": {
+      "20ft": 1500,
+      "40ft": 1700,
+      "rate_validity": "2026-12-29",
       "ktk_over_norm_cost": 1900
     }
   }

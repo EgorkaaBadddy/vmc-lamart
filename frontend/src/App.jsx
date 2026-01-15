@@ -33,6 +33,7 @@ function App() {
     status,
     searching,
     serviceSelections,
+    isSorted,
     handleFormChange,
     submitSearch,
     sortByPrice,
@@ -99,6 +100,7 @@ function App() {
             onSort={sortByPrice}
             rateDate={rateDate}
             status={status}
+            isSorted={isSorted}
           />
         </div>
       </main>
